@@ -2,13 +2,13 @@ package log
 
 import (
 	"context"
-	"egyptnmaster/golang-x-log/formatter"
-	"egyptnmaster/golang-x-log/provider"
 	"log/slog"
 	"os"
 	"testing"
 	"time"
 
+	"github.com/Egyptmaster/golang-x-log/formatter"
+	"github.com/Egyptmaster/golang-x-log/provider"
 	"github.com/stretchr/testify/assert"
 )
 

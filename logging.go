@@ -3,13 +3,14 @@ package log
 import (
 	"bytes"
 	"context"
-	"egyptnmaster/golang-x-log/formatter"
-	"egyptnmaster/golang-x-log/provider"
 	"encoding/json"
 	"fmt"
 	"io"
 	"log/slog"
 	"os"
+
+	"github.com/Egyptmaster/golang-x-log/formatter"
+	"github.com/Egyptmaster/golang-x-log/provider"
 )
 
 type Config struct {

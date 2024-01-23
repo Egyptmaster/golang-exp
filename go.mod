@@ -1,4 +1,4 @@
-module egyptnmaster/golang-x-log
+module github.com/Egyptmaster/golang-x-log
 
 go 1.21
 
